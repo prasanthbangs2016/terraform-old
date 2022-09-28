@@ -1,7 +1,6 @@
 dev: ## Terraform create for DEV env
 	@cd dev
 	@terraform init
-	@terraform apply -auto-approve
 
 prod: ## Terraform destroy for DEV env
 	@cd prod
