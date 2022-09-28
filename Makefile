@@ -1,14 +1,9 @@
-dev: ## Terraform create for DEV env
-	@cd dev
-	@terraform init
-
-prod: ## Terraform destroy for DEV env
-	@cd prod
-	@terraform init
+dev:
+	cd dev
+	terraform init
 
 
+prod:
 
-#prod-apply: git## App Server Setup, Configures STUDENT APP + PRODUCT APP
-
-
-#prod-destroy: git## DB Server Setup, Configures MariaDB + MongoDB + RabbitMQ
+	cd prod
+	terraform init
