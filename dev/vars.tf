@@ -1,4 +1,4 @@
 variable "VPC_CIDR" {}
-variable "tags" {
+variable "TAGS" {
   
 }
