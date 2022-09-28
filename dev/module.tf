@@ -1,5 +1,5 @@
 module "VPC" {
     source = "../module"
-    VPC_CIDR = var.VPC_CIDR
+    cidr_block = var.cidr_block
   
 }
